@@ -1,0 +1,36 @@
+.navbar {
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    padding: 15px 0;
+    font-family: Arial, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__menu-icon {
+    color: gray;
+    padding: 0 10px;
+}
+
+.navbar__search-bar {
+    display: flex;
+    width: 39%;
+}
+
+.navbar__search-bar-button {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__search-bar-input {
+    width: 75%;
+    padding: 10px;
+}
