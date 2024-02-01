@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop Site</title>
+        <link href="./resources/css/addNewItem.css" type="text/css" rel="stylesheet">
+        <link href="./resources/css/navbar.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <span class="material-icons navbar__menu-icon">menu</span>
+                <a class="navbar__logo-text">Logo</a>
+            </div>
+            <div class="navbar__search-bar">
+                <input type="text" placeholder="Search by item name" class="navbar__search-bar-input">
+                <button class="navbar__search-bar-button">
+                    All Categories
+                    <span class="material-icons navbar__dropdown-icon">expand_more</span>
+                </button>
+            </div>
+            <div class="navbar__right-options">
+                <span class="material-icons navbar__heart-icon">favorite</span>
+                <span class="material-icons navbar__cart-icon">shopping_cart</span>
+                <a href="./index.html" class="navbar__link">Login</a> |
+                <a href="./register.html" class="navbar__link">Sign Up</a>
+            </div>
+        </nav>
+        <p class="addNewItem__title">Add New Item</p>
+        <div class="addNewItem__form">
+            <div class="addNewItem__form-left-column">
+                <div class="addNewItem__single-field">
+                    <label class="addNewItem__form-label">Company</label>
+                    <input type="text" class="addNewItem__form-text">
+                </div>
+                <div class="addNewItem__single-field">
+                    <label class="addNewItem__form-label">Category</label>
+                    <button class="addNewItem__form-text">Category Name</button>
+                </div>
+                <div class="addNewItem__single-field">
+                    <label class="addNewItem__form-label">Valid to</label>
+                    <input type="date" class="addNewItem__form-text">
+                </div>
+                <div class="addNewItem__single-field">
+                    <label class="addNewItem__form-label">Price</label>
+                    <input type="number" class="addNewItem__form-text">
+                </div>
+                <div class="addNewItem__single-field">
+                    <label class="addNewItem__form-label">Images</label>
+                    <button class="addNewItem__form-text"></button>
+                </div>
+            </div>
+            <div class="addNewItem__form-right-column">
+                <div class="addNewItem__single-field">
+                    <label class="addNewItem__form-label">Item Name</label>
+                    <input type="text" class="addNewItem__form-text">
+                </div>
+                <div class="addNewItem__single-field">
+                    <label class="addNewItem__form-label">Short description</label>
+                    <textarea class="addNewItem__form-label"></textarea>
+                </div>
+                <div class="addNewItem__single-field">
+                    <label class="addNewItem__form-label">Long description</label>
+                    <textarea class="addNewItem__form-label"></textarea>
+                </div>
+            </div>            
+        </div>
+    </body>
+</html>
