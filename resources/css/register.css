@@ -1,0 +1,76 @@
+label {
+    color: #6d6d6d;
+}
+
+.register__cancel-button {
+    background-color: white;
+    color: #6d6d6d;
+    border: solid #bebebe;
+    width: 49%;
+    font-weight: bold;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 20px 30px;
+}
+
+.register__form-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 46%;
+    margin-left: auto;
+    margin-right: 32px;
+    padding-bottom: 15px;
+    height: 35px;
+}
+
+.register__form-input {
+    height: 30px;
+    border: solid #bebebe;
+}
+
+.register__form-label {
+    font-size: 14px;
+}
+
+.register__input-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register__root {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: solid gray;
+    width: 70%;
+}
+
+.register__signup-button {
+    background-color: #00e18b;
+    color: white;
+    border: none;
+    width: 49%;
+    font-weight: bold;
+}
+
+.register__single-input {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    padding-bottom: 10px;
+}
+
+.register__title {
+    background-color: #6d6d6d;
+    color: white;
+    margin-top: 0;
+    padding: 15px;
+    margin-top: 0;
+}
