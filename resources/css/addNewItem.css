@@ -1,3 +1,34 @@
+.addNewItem__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-left: auto;    
+    background-color: purple;
+}
+
+.addNewItem__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addNewItem__form-column {
+    width: 45%;
+}
+
+.addNewItem__form-container {
+    display: flex;
+    flex-direction: column;
+    width: 74%;
+    height: 80vh;
+    background-color: green;
+    margin: auto;
+}
+
+.addNewItem__single-field {
+    display: flex;
+    flex-direction: column;
+}
+
 .addNewItem__title {
     background-color: #6d6d6d;
     color: white;
