@@ -27,43 +27,49 @@
             </div>
         </nav>
         <p class="addNewItem__title">Add New Item</p>
-        <div class="addNewItem__form">
-            <div class="addNewItem__form-left-column">
-                <div class="addNewItem__single-field">
-                    <label class="addNewItem__form-label">Company</label>
-                    <input type="text" class="addNewItem__form-text">
+        <div class="addNewItem__form-container">
+            <div class="addNewItem__form">
+                <div class="addNewItem__form-column">
+                    <div class="addNewItem__single-field">
+                        <label class="addNewItem__form-label">Company</label>
+                        <input type="text" class="addNewItem__form-text">
+                    </div>
+                    <div class="addNewItem__single-field">
+                        <label class="addNewItem__form-label">Category</label>
+                        <button class="addNewItem__form-text">Category Name</button>
+                    </div>
+                    <div class="addNewItem__single-field">
+                        <label class="addNewItem__form-label">Valid to</label>
+                        <input type="date" class="addNewItem__form-text">
+                    </div>
+                    <div class="addNewItem__single-field">
+                        <label class="addNewItem__form-label">Price</label>
+                        <input type="number" class="addNewItem__form-text">
+                    </div>
+                    <div class="addNewItem__single-field">
+                        <label class="addNewItem__form-label">Images</label>
+                        <button class="addNewItem__form-text"></button>
+                    </div>
                 </div>
-                <div class="addNewItem__single-field">
-                    <label class="addNewItem__form-label">Category</label>
-                    <button class="addNewItem__form-text">Category Name</button>
+                <div class="addNewItem__form-column">
+                    <div class="addNewItem__single-field">
+                        <label class="addNewItem__form-label">Item Name</label>
+                        <input type="text" class="addNewItem__form-text">
+                    </div>
+                    <div class="addNewItem__single-field">
+                        <label class="addNewItem__form-label">Short description</label>
+                        <textarea class="addNewItem__form-label"></textarea>
+                    </div>
+                    <div class="addNewItem__single-field">
+                        <label class="addNewItem__form-label">Long description</label>
+                        <textarea class="addNewItem__form-label"></textarea>
+                    </div>
                 </div>
-                <div class="addNewItem__single-field">
-                    <label class="addNewItem__form-label">Valid to</label>
-                    <input type="date" class="addNewItem__form-text">
-                </div>
-                <div class="addNewItem__single-field">
-                    <label class="addNewItem__form-label">Price</label>
-                    <input type="number" class="addNewItem__form-text">
-                </div>
-                <div class="addNewItem__single-field">
-                    <label class="addNewItem__form-label">Images</label>
-                    <button class="addNewItem__form-text"></button>
-                </div>
-            </div>
-            <div class="addNewItem__form-right-column">
-                <div class="addNewItem__single-field">
-                    <label class="addNewItem__form-label">Item Name</label>
-                    <input type="text" class="addNewItem__form-text">
-                </div>
-                <div class="addNewItem__single-field">
-                    <label class="addNewItem__form-label">Short description</label>
-                    <textarea class="addNewItem__form-label"></textarea>
-                </div>
-                <div class="addNewItem__single-field">
-                    <label class="addNewItem__form-label">Long description</label>
-                    <textarea class="addNewItem__form-label"></textarea>
-                </div>
-            </div>            
+            </div>    
+            <div class="addNewItem__buttons">
+                <button class="addNewItem__back-button">Back</button>
+                <button class="addNewItem__save-button">Save</button>
+            </div>        
         </div>
     </body>
 </html>
