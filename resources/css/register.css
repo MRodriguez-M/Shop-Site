@@ -37,6 +37,7 @@ label {
 
 .register__form-label {
     font-size: 14px;
+    font-weight: bold;
 }
 
 .register__input-row {
