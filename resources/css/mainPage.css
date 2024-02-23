@@ -1,0 +1,28 @@
+body {
+    background-color: #bebebe;
+}
+
+.mainPage__category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainPage__category-button {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin-top: 15px;
+}
+
+.mainPage__category-container {
+    margin: 70px -10px 0 -10px;
+    background-color: #6d6d6d;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainPage__category-name {
+    margin: 5px 0;
+}
