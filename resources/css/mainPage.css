@@ -2,6 +2,14 @@ body {
     background-color: #bebebe;
 }
 
+.mainPage__add-cart-button {
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border: solid #6d6d6d;
+    padding: 2px 15px;
+}
+
 .mainPage__category {
     display: flex;
     flex-direction: column;
@@ -25,4 +33,48 @@ body {
 
 .mainPage__category-name {
     margin: 5px 0;
+}
+
+.mainPage__heart-icon {
+    color: #6d6d6d;
+}
+
+.mainPage__product-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPage__product-img-button {
+    height: 200px;
+    width: 200px;
+    border: none;
+    background-color: #6d6d6d;
+}
+
+.mainPage__product-info-container {
+    background-color: white;
+    width: 200px;
+    padding: 10px 0;
+}
+
+.mainPage__product-info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: -15px 0;
+}
+
+.mainPage__product-text {
+    font-weight: bold;
+}
+
+.mainPage__product-text-description {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.mainPage__product-text-expiration {
+    color: #6d6d6d;
+    font-size: 10px;
 }
