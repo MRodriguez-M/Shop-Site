@@ -39,6 +39,12 @@ body {
     color: #6d6d6d;
 }
 
+.mainPage__products {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
 .mainPage__product-container {
     display: flex;
     flex-direction: column;
