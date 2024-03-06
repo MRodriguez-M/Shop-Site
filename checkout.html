@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop Site</title>
+        <link href="./resources/css/checkout.css" type="text/css" rel="stylesheet">
+        <link href="./resources/css/navbar.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <span class="material-icons navbar__menu-icon">menu</span>
+                <a class="navbar__logo-text">Logo</a>
+            </div>
+            <div class="navbar__search-bar">
+                <input type="text" placeholder="Search by item name" class="navbar__search-bar-input">
+                <button class="navbar__search-bar-button">
+                    All Categories
+                    <span class="material-icons navbar__dropdown-icon">expand_more</span>
+                </button>
+            </div>
+            <div class="navbar__right-options">
+                <span class="material-icons navbar__heart-icon">favorite</span>
+                <span class="material-icons navbar__cart-icon" onclick="window.location.href='./checkout.html'">shopping_cart</span>
+                <a href="./index.html" class="navbar__link">Login</a> |
+                <a href="./register.html" class="navbar__link">Sign Up</a>
+            </div>
+        </nav>
+        <p class="checkout__title">Checkout</p>
+        <div class="checkout__products-container">
+            <div class="checkout__cart-product">
+                <img class="checkout__product-img">
+                <div class="checkout__product-text">
+                    <p class="checkout__product-title">Coupon Name</p>
+                    <p class="checkout__product-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse rhoncus elementum augue, at cursus...
+                    </p>
+                </div>
+                <p class="checkout__product-price">$200</p>
+            </div>
+            <div class="checkout__cart-product">
+                <img class="checkout__product-img">
+                <div class="checkout__product-text">
+                    <p class="checkout__product-title">Coupon Name</p>
+                    <p class="checkout__product-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse rhoncus elementum augue, at cursus...
+                    </p>
+                </div>
+                <p class="checkout__product-price">$120</p>
+            </div>
+            <div class="checkout__cart-product">
+                <img class="checkout__product-img">
+                <div class="checkout__product-text">
+                    <p class="checkout__product-title">Coupon Name</p>
+                    <p class="checkout__product-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse rhoncus elementum augue, at cursus...
+                    </p>
+                </div>
+                <p class="checkout__product-price">$40</p>
+            </div>
+        </div>
+        <div>
+            <p>Total</p>
+            <p>$360</p>
+        </div>
+        <div>
+            <button>Back</button>
+            <button>Checkout</button>
+        </div>
+    </body>
+</html>
