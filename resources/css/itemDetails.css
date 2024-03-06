@@ -2,6 +2,36 @@ body {
     background-color: #bebebe;
 }
 
+.itemDetails__add-cart-button {
+    border: none;
+    color: #00b2ff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: white;
+}
+
+.itemDetails__cart-icon {
+    color: #6d6d6d;
+    padding-left: 5px;
+}
+
+.itemDetails__countdown {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.itemDetails__detailed-description {
+    width: 70%;
+    margin-top: 30px;
+}
+
+.itemDetails__detailed-description-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .itemDetails__img {
     background-color: #6d6d6d;
     width: 70%;
@@ -11,14 +41,40 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    background-color: aquamarine;
+}
+
+.itemDetails__product-bottom-line {
+    display: flex;
+    justify-content: space-between;
 }
 
 .itemDetails__product-info {
-    background-color: yellow;
+    background-color: white;
     width: 25%;
+    padding: 0 20px;
+}
+
+.itemDetails__product-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.itemDetails__product-price {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .itemDetails__root {
     margin: 70px 40px 0;
+}
+
+.itemDetails__time-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemDetails__time-title {
+    margin-bottom: 0;
+    color: #6d6d6d;
+    font-size: 12px;
 }
