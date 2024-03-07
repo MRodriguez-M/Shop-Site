@@ -71,7 +71,7 @@ body {
     margin: -15px 0;
 }
 
-.mainPage__product-text {
+.mainPage__product-text, .mainPage__product-price-text {
     font-weight: bold;
 }
 
