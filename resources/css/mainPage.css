@@ -42,12 +42,15 @@ body {
 .mainPage__products {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 40px;
 }
 
 .mainPage__product-container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 5px;
 }
 
 .mainPage__product-img-button {
@@ -73,11 +76,17 @@ body {
 
 .mainPage__product-text, .mainPage__product-price-text {
     font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .mainPage__product-text-description {
     font-weight: bold;
     font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .mainPage__product-text-expiration {
