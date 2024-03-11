@@ -19,12 +19,22 @@ for(let i = 0; i < productData.length; i++) {
 }
 
 const searchItem = () => {
-    let input = document.getElementsByClassName('navbar__search-bar-input').value;
+    let input = document.getElementById('searchbar').value;
     let filteredSearch = [];
 
     for(let i = 0; i < productData.length; i++) {
         if(productData[i].title.toLowerCase().includes(input.toLowerCase())) {
             filteredSearch.push(productData[i]);
         }
+    }
+
+    for(let i = 0; i < filteredSearch.length; i++) {
+        const productName = document.getElementsByClassName('mainPage__product-text')
+        const productDescription = document.getElementsByClassName('mainPage__product-text-description')
+        const productPrice = document.getElementsByClassName('mainPage__product-price-text')
+    
+        productName[i].innerHTML = filteredSearch[i].title;
+        productDescription[i].innerHTML = filteredSearch[i].description;
+        productPrice[i].innerHTML = filteredSearch[i].price;
     }
 }
